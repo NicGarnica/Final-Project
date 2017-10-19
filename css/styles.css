@@ -1,0 +1,193 @@
+body{
+  margin: 0px;
+  background-color: #ffffff;
+}
+.logo:hover{
+  
+}
+.logo{
+  height: 75px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+.logo:hover {
+	animation: bounce 1s;
+}
+
+/**Start Nav Styles**/
+.main-nav{
+  background: #00ace6;
+}
+.nav-list{
+  float: right;
+  list-style: none;
+  margin-top: 25px;
+  margin-right: 5px;
+}
+.nav-item{
+  float: left;
+  margin-right: 15px;
+}
+.nav-link{
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+.nav-link:hover{
+  color: gold;
+  text-decoration: none;
+  border-top: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
+}
+/**End Nav Styles**/
+
+/**Start Hero Styles**/
+.hero-background {
+    ackground-image: url('../images/bus.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+}
+
+.hero-background:hover .image {
+-webkit-transform:scale(1);
+transform:scale(1);
+}
+
+.hero-background {
+overflow: hidden;
+}
+
+.image {
+-webkit-transform:scale(1.3);
+transform:scale(1.5);
+-webkit-transition: all 0.7s ease;
+transition: all 1.0s ease;
+width: 100%;
+height: 300px;
+}
+
+.hero-text {
+    color: gold;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 10px;
+}
+
+.text-background {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.hero-text {
+    color: #00ace6;
+}
+
+/**End Hero Styles**/
+
+/**Start Column Section**/
+.column-container{
+  padding: 15px;
+  padding-bottom: 15px;
+  background-color: black;
+}
+
+.column-container:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 700px;
+}
+
+.column-image {
+  height: ;
+  width: ;
+}
+
+.column {
+    width: 50%;
+    border: 1px solid #000000;
+    text-align: center;
+    height: 200px;
+    position: absolute;
+    background-color: #00ace6;
+}
+
+.firstbox {
+  Top: 420px;
+}
+
+.secondbox {
+  Top: 650px;
+  left: 660px;
+}
+
+.thirdbox {
+  top: 880px;
+}
+
+h2{
+  color: black;
+}
+
+p{
+  color: black;
+}
+
+.column-image{
+    width: 100%;
+    height: 300px;
+}
+/**End Column Section*/
+
+/**Start Footer Styles*/
+.main-footer {
+  border-top: 1px solid #000000;
+}
+.main-footer:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.footer-section {
+  width: 33.258%;
+  height: 150px;
+  float: left;
+  padding: 15px 0px;
+  text-align: center;
+  border-left: 1px solid #000000;
+  font-size: 25px;
+  background-color: #00ace6;
+}
+.footer-text{
+  color: #ffffff;
+}
+.section {
+  height: 50px;
+  width: 150px;
+}
+.center {
+  margin: 0 auto;
+}
+
+.facebooklogo{
+  color: blue;
+  height: 15px;
+  width: 15px;
+  margin-top: 60px;
+}
